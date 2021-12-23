@@ -336,6 +336,11 @@
 		> p {
 			margin: 0.5em 0 0 0;
 			color: #aaa;
+			text-align: center;
+		}
+
+		> h1, h2 {
+			text-align: center;
 		}
 
 		@include breakpoint('<=small') {
@@ -834,7 +839,7 @@
 
 				&:first-child {
 					padding-left: 0;
-					margin-left: 0;
+					margin-left: 20;
 					border-left: 0;
 				}
 			}
